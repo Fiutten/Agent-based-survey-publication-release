@@ -1,0 +1,9 @@
+candidate_id	title	doi	status	source_quality	dependence	uncertainty_calibration	provenance	topology_fusion	faults	recovery_abstention	resources
+COV-001	Demystifying Multi-Agent Debate: The Role of Confidence and Diversity	10.18653/v1/2026.findings-acl.1694	FULLTEXT_CODED	E	E	C	--	E	E	--	E
+COV-002	Free-MAD: Consensus-Free Multi-Agent Debate	10.18653/v1/2026.findings-acl.1600	FULLTEXT_CODED	R	E	--	--	C	C	E	C
+COV-003	When Identity Skews Debate: Anonymization for Bias-Reduced Multi-Agent Reasoning	10.18653/v1/2026.acl-long.650	FULLTEXT_CODED	--	C	--	--	E	C	E	--
+COV-004	Voting or Consensus? Decision-Making in Multi-Agent Debate	10.18653/v1/2025.findings-acl.606	FULLTEXT_CODED	--	R	--	--	C	C	--	E
+COV-005	The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge	10.18653/v1/2026.acl-srw.121	FULLTEXT_CODED	R	--	C	--	R	C	--	--
+COV-006	Dialectic-Med: Mitigating Diagnostic Hallucinations via Counterfactual Adversarial Multi-Agent Debate	10.18653/v1/2026.findings-acl.1837	TECHNICAL_EXCLUSION	NA	NA	NA	NA	NA	NA	NA	NA
+COV-016	SELENE: Selective and Evidence-Weighted LLM Debating for Efficient and Reliable Reasoning	10.18653/v1/2026.eacl-industry.7	FULLTEXT_CODED	E	C	C	--	C	E	E	C
+COV-017	CascadeDebate: Multi-Agent Deliberation for Cost-Aware LLM Cascades	10.18653/v1/2026.acl-industry.93	FULLTEXT_CODED	E	R	C	--	C	E	C	C

@@ -1,0 +1,8 @@
+construct	reported	empirically_evaluated	criterion_satisfying	denominator
+Dependence	10	1	0	82
+Confidence calibration	53	10	3	82
+Benign failure	29	9	2	82
+Adversarial failure	21	11	2	82
+Recovery	25	5	2	82
+Provenance	18	2	0	82
+Resource use and matched-fairness evidence	61	24	0	82

@@ -6,13 +6,23 @@ Public reproducibility companion for the manuscript **“Reliable Information Fu
 
 The primary systematic-search snapshot closes on **4 August 2026**. It contains a 3,367-record screening universe, a 175-publication structured evidence map, and an 82-publication central full-text nucleus. Post-freeze venue/frontier and hold-out records are kept separate from those quantitative denominators and are used only for positioning or coverage-sensitivity analyses.
 
-This repository is the rights-safe public audit layer for the article. It is intended to expose the search and screening protocol, frozen accounting, coding definitions, construct-level summaries, evidence-control summaries, RIF coverage analyses, and publication-level identifiers needed to inspect the reported results.
+This repository is the rights-safe public audit layer for the article. The current release exposes the executed database-search strategy, frozen screening and reconciliation accounting, construct-level evidence summaries, evidence-control appraisal summaries, review-governance documentation, and the post-freeze RIF coverage check used to inspect the principal reported results.
+
+## Released material
+
+- `protocol/search_strategy.md`: frozen Scopus S1-S8 and Web of Science W1-W4 query logic, filters, counts, deduplication, and reconciliation rules.
+- `protocol/review_governance.md`: three-author calibration, final adjudication boundaries, later coauthor sign-off, and AI-assistance boundary.
+- `protocol/rif_coverage_check.md`: interpretation and limits of the post-freeze RIF coverage/applicability check.
+- `data/corpus_snapshot.tsv`: frozen evidence-stratum and database-reconciliation counts.
+- `data/construct_evidence_profile.tsv`: reported / empirically evaluated / criterion-satisfying full-text counts for the 82 central publications.
+- `data/evidence_control_appraisal.tsv`: non-additive appraisal counts for baseline adequacy, resources, statistics, dependence, failures, and reproducibility.
+- `data/rif_external_coverage.tsv`: the eight fixed post-freeze coverage candidates and their RIF-level coding; one candidate is retained as a technical exclusion.
 
 ## Rights and database restrictions
 
-Publisher-restricted full-text PDFs are **not redistributed**. Licensed Scopus and Web of Science export files are also not redistributed. The release instead preserves query logic, bibliographic identities, reconciliation counts, coding rules, and rights-safe derived data so eligible publications can be independently located and the reported denominators audited.
+Publisher-restricted full-text PDFs are **not redistributed**. Licensed Scopus and Web of Science export files are also not redistributed. The release instead preserves query logic, bibliographic identities where reported in rights-safe derived records, reconciliation counts, coding rules, and derived summaries so that the principal reported denominators and claims can be audited without redistributing restricted material.
 
-The historical Web of Science audit preserves the exact Topic-query strings, filters, date window, export fields, and reconciliation order. The original interface collection label is not reconstructed from memory; this limitation is retained explicitly rather than guessed.
+The historical Web of Science audit preserves the Topic-query strings, filters, date window, export fields, and reconciliation order used in the review. The original historical interface collection label is not reconstructed from memory; this provenance limitation is retained explicitly rather than guessed.
 
 ## Evidence-level semantics
 

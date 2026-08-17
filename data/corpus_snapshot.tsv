@@ -1,0 +1,16 @@
+layer	count	interpretation
+screening_universe	3367	Unique records after Scopus/Web of Science reconciliation; used for screening-flow accounting only
+explicit_evidence_assessment	463	Records reaching explicit evidence-tier assessment
+outside_scope	171	Excluded at evidence-tier assessment as outside scope
+contextual	117	Contextual/background records retained outside structured evidence map
+priority_supporting	93	Priority-supporting publications included in structured evidence map
+central_full_text	82	Central publications included in full-text construct and appraisal synthesis
+structured_evidence_map	175	Priority-supporting plus central publications; publication-level descriptive map
+post_freeze_frontier_holdout	NA	Kept outside 175/82 denominators; used only for positioning or coverage sensitivity
+scopus_rows_across_S1_S8	4632	Rows considered across the eight Scopus search families before cross-search consolidation
+scopus_unique_eids	2613	Unique Scopus records after within/cross-search consolidation
+wos_raw_rows	1296	Raw Web of Science records before shared eligibility processing
+wos_eligible_rows	1277	Rows after document/date eligibility
+wos_unique_records	885	Unique Web of Science records after within-database deduplication
+wos_scopus_overlap	131	Web of Science records already represented in Scopus
+wos_only_records	754	Unique Web of Science records added to the union

@@ -1,0 +1,8 @@
+dimension	strong	partial	reported_only	limited	denominator
+Baseline adequacy	43	28	0	11	82
+Resource parity	0	24	37	21	82
+Statistical robustness	12	32	0	38	82
+Dependence control	0	1	9	72	82
+Failure testing	4	16	22	40	82
+Reproducibility	8	34	0	40	82
+Resource reporting	14	64	0	4	82
